@@ -109,41 +109,34 @@ h1, h2, h3, h4, h5 {
 
  
 
-  .top-content h1 {
+  .top-content .bottom-content h1 {
 	  font-size: 24px;
   }
 
-.half {
-	display: inline-block;
-	width: 45%;
-	margin: 15px;
+  .top-content {
+	display: flex;
 	font-size: 23px;
+	margin: 50px auto;
 }
-  .middle-img {
-	  text-align: center;
+  .code-snippit {
+	  display: flex;
+	  justify-content: space-around;
   }
 
-.thirds {
-	display: inline-block;
-	width: 30%;
-	margin: 15px;
-	font-size: 23px;
+  .bottom-content {
+	display: flex;
+	margin: 50px auto;
 }
-
-  .bottom-content h1 {
-	  font-size: 24px;
-  }
-
- 
 
   .contact {
-	display: block;
-	margin-top: 30px
+	display: flex;
+	justify-content: flex-start
   }
 
   .contact h1 {
 	font-size: 24px;
   }
+
 
   .footer {
 	background:none;

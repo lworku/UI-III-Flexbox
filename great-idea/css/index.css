@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	width: 90%;
+	
+	margin: 0 100px;
 
 }
 
@@ -111,36 +112,43 @@ h1, h2, h3, h4, h5 {
 		
 	}
 
-  .top-content .bottom-content h1 {
+  .index-top-content .index-bottom-content h1 {
 	  font-size: 24px;
   }
 
-  .top-content {
+  .index-top-content {
 	display: flex;
 	font-size: 23px;
 	margin: 50px auto;
 }
-  .code-snippit-img {
-	  display: flex;
-	  justify-content: space-around;
+  .middle-img {
+	  display: block;
+	  margin: 20px auto;
   }
 
-  .bottom-content {
+  .index-bottom-content {
 	display: flex;
-	margin: 50px auto;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 20px 30px 20px;
+	font-size: 23px;
+}
+
+.services-header-img {
+	display: block;
+	margin: 20px auto;
 }
 
 .Services h1 {
 	font-size: 30px;
 }
 
-.Services {
-	display: block;	
-	margin: 25px auto;
+.services-child-text {
+	margin: 0 162px;
 }
 
 hr {
-	margin: 30px auto;
+	margin: 30px 100px;
 }
 
 .Services-middle-content .box{
@@ -178,6 +186,25 @@ hr {
 	
 }
 
+.Services-bottom-content .child{
+	background: none;
+	margin: 30px;
+	width: 450px;
+	height: 250px;
+	font-size: 18px;
+	
+}
+
+.Services-bottom-content{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.Services-bottom-content p{
+	margin: 15px auto;
+}
+	
 
   .contact {
 	display: flex;

@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
+	margin: auto 100px;
   }
 
 .navigation a {
@@ -146,7 +147,7 @@ h1, h2, h3, h4, h5 {
 }
 
 hr {
-	margin: 30px 100px;
+	margin: 30px 136px;
 }
 
 .Services-middle-content .box{
@@ -221,5 +222,5 @@ hr {
 	background:none;
 	display: block;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 100px;
   }

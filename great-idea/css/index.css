@@ -30,7 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 90%;
+
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -65,15 +68,17 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.navigation a {
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	width: 100%; 
 	margin: 0 10px;
 	border: none;
 	padding: 20px;
-	display: inline-block;
 	border-radius: 20px;
 	color: gray;
 	text-decoration: none;
-	margin-bottom: 20px;
+	margin-bottom: auto;
 	background:none;
 	
   }
@@ -84,11 +89,11 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: auto;
 	}
 
- .banner {
-	display: inline-block;
-	width: 45%;
-	margin-top: 20px;
-	margin-bottom: 20px;
+ .header {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin: 50px auto;
 	}
 
    .button {

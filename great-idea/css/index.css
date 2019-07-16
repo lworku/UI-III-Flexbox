@@ -71,6 +71,10 @@ h1, h2, h3, h4, h5 {
 .navigation {
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
+  }
+
+.navigation a {
 	width: 100%; 
 	margin: 0 10px;
 	border: none;
@@ -81,7 +85,7 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: auto;
 	background:none;
 	
-  }
+}
 
   .header-words-button{
 	font-size: 75px;
@@ -96,7 +100,7 @@ h1, h2, h3, h4, h5 {
 	margin: 50px auto;
 	}
 
-   .button {
+   .button-Get-Started {
 		border: 1px solid black;
 		width: 200px;
 		padding: none;
@@ -107,8 +111,6 @@ h1, h2, h3, h4, h5 {
 		
 	}
 
- 
-
   .top-content .bottom-content h1 {
 	  font-size: 24px;
   }
@@ -118,7 +120,7 @@ h1, h2, h3, h4, h5 {
 	font-size: 23px;
 	margin: 50px auto;
 }
-  .code-snippit {
+  .code-snippit-img {
 	  display: flex;
 	  justify-content: space-around;
   }
@@ -127,6 +129,55 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	margin: 50px auto;
 }
+
+.Services h1 {
+	font-size: 30px;
+}
+
+.Services {
+	display: block;	
+	margin: 25px auto;
+}
+
+hr {
+	margin: 30px auto;
+}
+
+.Services-middle-content .box{
+	background: rgba(238, 237, 237, 0.767);
+	margin: 30px;
+	border: 1px solid black;
+	padding: 20px;
+	width: 450px;
+	height: 250px;
+	font-size: 18px;
+	
+}
+
+.Services-middle-content{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.Services-Learn-More-Button {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 150px;
+	padding: none;
+	margin: 20px 20px 20px 0;
+	height: 35px;
+	font-size: 12px;
+	background-color: white;
+	
+	
+}
+
 
   .contact {
 	display: flex;

@@ -35,9 +35,7 @@ body {
 
 }
 
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -195,16 +193,19 @@ hr {
 	
 }
 
+.Services-bottom-content .child h1 p {
+	margin: 0px;
+}
+
 .Services-bottom-content{
 	display: flex;
 	justify-content: center;
 	align-content: center;
 }
 
-.Services-bottom-content p{
-	margin: 15px auto;
+.Services-bottom-content .child .grandchild {
+	margin: 30px 20px; 
 }
-	
 
   .contact {
 	display: flex;
@@ -220,5 +221,5 @@ hr {
 	background:none;
 	display: block;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 50px;
   }

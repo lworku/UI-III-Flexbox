@@ -69,28 +69,35 @@ h1, h2, h3, h4, h5 {
 
 .navigation {
 	display: flex;
+	width: 100%;
 	justify-content: space-between;
+	justify-content: center;
 	align-items: baseline;
+	align-content: center;
 	margin: auto 100px;
   }
 
 .navigation a {
 	width: 100%; 
-	margin: 0 10px;
+	margin: 10px 10px;
 	border: none;
 	padding: 20px;
-	border-radius: 20px;
+	border-radius: 5px;
 	color: gray;
 	text-decoration: none;
-	margin-bottom: auto;
-	background:none;
+	background:lightgray;
 	
+}
+
+.navigation :last-child {
+	background: none;
 }
 
   .header-words-button{
 	font-size: 75px;
 	text-align: center;
 	margin-bottom: auto;
+	width: 100%;
 	}
 
  .header {
@@ -122,6 +129,7 @@ h1, h2, h3, h4, h5 {
 }
   .middle-img {
 	  display: block;
+	  width: 100%;
 	  margin: 20px auto;
   }
 
@@ -148,6 +156,16 @@ h1, h2, h3, h4, h5 {
 
 hr {
 	margin: 30px 136px;
+}
+
+.index-top-line-break{
+	width: 100%;
+	margin: 0px;
+}
+
+.index-bottom-line-break{
+	width: 100%;
+	margin: 0px;
 }
 
 .Services-middle-content .box{
@@ -210,11 +228,17 @@ hr {
 
   .contact {
 	display: flex;
-	justify-content: flex-start
+	justify-content: flex-start;
+	margin-left: 20px;
+	margin-top: 50px;
   }
 
   .contact h1 {
 	font-size: 24px;
+  }
+
+  .contact p {
+	font-size: 16px;
   }
 
 

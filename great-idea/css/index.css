@@ -55,8 +55,9 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0 auto;
+	width: 900px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,23 +70,22 @@ h1, h2, h3, h4, h5 {
 
 .navigation {
 	display: flex;
-	width: 100%;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	justify-content: center;
-	align-items: baseline;
+	align-items: center;
 	align-content: center;
 	margin: auto 100px;
   }
 
 .navigation a {
-	width: 100%; 
-	margin: 10px 10px;
+	width: 98%; 
+	margin: 0px 10px;
 	border: none;
 	padding: 20px;
 	border-radius: 5px;
 	color: gray;
 	text-decoration: none;
-	background:lightgray;
+	background:white;
 	
 }
 
@@ -125,12 +125,13 @@ h1, h2, h3, h4, h5 {
   .index-top-content {
 	display: flex;
 	font-size: 23px;
-	margin: 50px auto;
+	width: 98%;
+	margin: 25px auto;
 }
-  .middle-img {
+  .index-middle-img {
 	  display: block;
-	  width: 100%;
-	  margin: 20px auto;
+	  width: 98%;
+	  margin: 0px auto;
   }
 
   .index-bottom-content {
@@ -143,37 +144,36 @@ h1, h2, h3, h4, h5 {
 
 .services-header-img {
 	display: block;
-	margin: 20px auto;
+	width:98%;
+	margin: 0px auto;
 }
 
 .Services h1 {
 	font-size: 30px;
 }
 
-.services-child-text {
-	margin: 0 162px;
+.Services-child {
+	width: 98%;
+	margin: 30px auto;
 }
 
-hr {
-	margin: 30px 136px;
-}
 
 .index-top-line-break{
-	width: 100%;
-	margin: 0px;
+	width: 98%;
+	margin: 0px auto;
 }
 
 .index-bottom-line-break{
-	width: 100%;
-	margin: 0px;
+	width: 98%;
+	margin: 0px auto;
 }
 
 .Services-middle-content .box{
 	background: rgba(238, 237, 237, 0.767);
-	margin: 30px;
+	margin: 20px auto;
 	border: 1px solid black;
 	padding: 20px;
-	width: 450px;
+	width: 400px;
 	height: 250px;
 	font-size: 18px;
 	
